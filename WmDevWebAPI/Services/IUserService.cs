@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using WmDevWebAPI.Models;
+﻿using WmDevWebAPI.Models;
 
 namespace WmDevWebAPI.Services
 {
