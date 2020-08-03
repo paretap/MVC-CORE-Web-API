@@ -40,7 +40,8 @@ namespace WmDevWebAPI.Services
                 user = DoCheckInDB(username, password);
 
                 // In Case of Windows AD
-                //user = new UserVm { Id = 1, FirstName = "Pavan", LastName = "Pareta", Password = "p123", Role = "ADMIN", Username = "foouser" };
+                var adInfo  = ADHelper.DoAuthentication(username, password);
+
             }
 
             // return null if user not found
